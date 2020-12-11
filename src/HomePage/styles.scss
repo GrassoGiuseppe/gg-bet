@@ -1,0 +1,14 @@
+
+$drawerWidth: 240px;
+
+.root {
+  display: flex;
+}
+
+.drawerPaper {
+  width: $drawerWidth;
+}
+
+.drawerContainer {
+  overflow: auto;
+}

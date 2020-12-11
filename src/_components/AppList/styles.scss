@@ -1,0 +1,20 @@
+
+$themeColor: #a02515;
+
+.root {
+  display: block;
+  padding: 20px;
+}
+
+.search{
+  float: right;
+  margin-bottom: 28px;
+}
+
+.head {
+  $this: &;
+  background-color: $themeColor;
+  & th {
+    color: #ffffff;
+  }
+}
